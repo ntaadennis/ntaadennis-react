@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-
 function StreamLink(props) {
     const [open, setOpen] = React.useState(false);
     const [iframe, setIframe] = React.useState(false);
