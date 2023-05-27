@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ntaadennis-react/static/css/main.baa6784d.css",
+    "main.js": "/ntaadennis-react/static/js/main.d801f8f2.js",
+    "static/js/787.3a2aacc7.chunk.js": "/ntaadennis-react/static/js/787.3a2aacc7.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/ntaadennis-react/static/media/Montserrat-VariableFont_wght.3068cdb43142f5625baf.ttf",
+    "index.html": "/ntaadennis-react/index.html",
+    "main.baa6784d.css.map": "/ntaadennis-react/static/css/main.baa6784d.css.map",
+    "main.d801f8f2.js.map": "/ntaadennis-react/static/js/main.d801f8f2.js.map",
+    "787.3a2aacc7.chunk.js.map": "/ntaadennis-react/static/js/787.3a2aacc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa6784d.css",
+    "static/js/main.d801f8f2.js"
+  ]
+}

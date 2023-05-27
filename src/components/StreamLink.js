@@ -15,7 +15,7 @@ function StreamLink(props) {
                 { open ?
                 <div class="dropdown-content" id="dropdown-content" onclick="openDropdown()">
                     <div class="watch-here">
-                        <a href="https://streameast.top/match/f1/monaco-gp/203655" target="blank">watch here</a> 
+                        <a href={props.link} target="blank">watch here</a> 
                        
                     </div>
                 </div>
