@@ -1,20 +1,18 @@
 import './App.css';
-import StreamLink from './components/StreamLink.js'
+import F1 from './components/F1.js'
 import * as React from 'react';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      
+      action: ""
     };
   }
   render() {
     return (
       <div className="App">
-        <StreamLink name='BUFFSTREAMS' link="https://streameast.top/match/f1/monaco-gp/203655"/>
-        <StreamLink name='BEST SOLARIS' link="https://bestsolaris.com/solaris.php?postid=30876" iframe/>
-  
+        <F1 />
       </div>
     );
   }

@@ -24,13 +24,13 @@ class StreamLink extends React.Component {
                         {this.state.open ?
                             <div class="dropdown-content" id="dropdown-content">
                                 { this.props.iframe ?
-                                <iframe title='stream' frameborder='0' height='100%' width='100%' src="https://bestsolaris.com/solaris.php?postid=30876" allowfullscreen allowtransparency>
-                                </iframe>
-                                : 
-    
-                                <div class="watch-here">
-                                    <a href={this.props.link} target="blank">watch here</a>    
-                                </div>
+                                    <iframe title='stream' frameborder='0' height='100%' width='100%' src="https://bestsolaris.com/solaris.php?postid=30876" allowfullscreen allowtransparency>
+                                    </iframe>
+                                    : 
+        
+                                    <div class="watch-here">
+                                        <a href={this.props.link} target="blank">watch here</a>    
+                                    </div>
                                 }
                             </div>
                         : <span/> }
